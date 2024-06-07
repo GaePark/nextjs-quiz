@@ -1,0 +1,29 @@
+{
+  "name": "next-quiz",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://gaepark.github.io/nextjs-quiz",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "gh-pages": "^6.1.1",
+    "next": "14.2.3",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-icons": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.3",
+    "typescript": "^5"
+  }
+}
